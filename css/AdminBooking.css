@@ -1,0 +1,44 @@
+/* Scope only to AdminBooking */
+.admin-booking-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.admin-booking-container {
+  width: 100%;
+  max-width: 800px;
+  padding-left: 110%;
+}
+
+.admin-booking-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.booking-card {
+  background-color: #fff;
+  border: 1px solid #e1e4e8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.admin-search-bar {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.admin-search-bar input {
+  padding: 0.6rem 1rem;
+  width: 60%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}

@@ -1,0 +1,27 @@
+/* banavbar.css */
+.banavbar {
+  background-color: #fffffff4;
+  color: rgb(9, 9, 9);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Segoe UI', sans-serif;
+   position: fixed;       /* 👈 Fixes it to the screen */
+  top: 0;                /* 👈 Sticks to the top */
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  padding-top: 30px;
+}
+
+.banavbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.banavbar-quote {
+  font-size: 1rem;
+  font-style: italic;
+  opacity: 0.9;
+}

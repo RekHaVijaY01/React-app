@@ -1,0 +1,37 @@
+/* adminnavbar.css */
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px 30px;
+  font-family: 'Segoe UI', sans-serif;
+    position: fixed;       /* 👈 Fixes it to the screen */
+  top: 0;                /* 👈 Sticks to the top */
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  padding-top: 30px;
+}
+
+.admin-navbar-left {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.admin-navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
